@@ -26,13 +26,13 @@ const Counter = () => {
       <div className="container">
         <div className="count-bar">
           <label htmlFor="" className="count-bar-lebel">
-            total
+            Total
           </label>
           <p><Display counter = {state.number}/></p>
         </div>
         <div className="count-text">
           <label htmlFor="" className="input-label">
-            add any number
+            Add any number
           </label>
           <input
             type="number"
@@ -50,7 +50,7 @@ const Counter = () => {
               setInput(0);
             }}
           >
-            add any number
+            Add any number
           </button>
           <button
             onClick={() => {
@@ -58,7 +58,7 @@ const Counter = () => {
               setInput(0);
             }}
           >
-            remove any number
+            Remove any number
           </button>
         </div>
 
